@@ -1,0 +1,35 @@
+.modal-backdrop {
+    /* bug fix - no overlay */
+    display: none;
+}
+
+.modal {
+    /* bug fix - custom overlay */
+    background-color: rgba(10, 10, 10, 0.45);
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.bg-blueviolet {
+    background-color: blueviolet;
+}
+
+.table_lebar_400px {
+    display: none;
+}
+
+@media (max-width: 455px) {
+    .display_flex1 {
+        flex-direction: column;
+    }
+
+    .table_lebar_100persen {
+        display: none;
+    }
+
+    .table_lebar_400px {
+        display: block;
+    }
+}
